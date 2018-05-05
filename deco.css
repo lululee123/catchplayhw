@@ -26,9 +26,13 @@ body {
 #sidemenu{
 	width: 2.3em;
 }
+@media screen and (width: 768px){
+	#sidemenu{
+		margin-left: 33em;
+	}
+}
 
-
-@media screen and (min-width: 768px){
+@media screen and (min-width: 769px){
 	.navbar {
 		background-color: black;
 		display: flex;
@@ -108,7 +112,7 @@ body {
 	
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 	.img {
 		background-image: url(images/images/keyvisual.png);
 		height: 33vw;
@@ -143,7 +147,7 @@ body {
 	margin-top: 2em;
 	width: 85%;
 }	
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 
 	.middletitle {
 		margin-top: 3em;
@@ -175,6 +179,9 @@ body {
 .main_des {
 	display: none;
 
+}
+.main__des-mobile{
+	display: block;
 }
 .main_des__img_left{
 	display: none;
@@ -242,11 +249,14 @@ body {
 	padding: 1em;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 	.main_des {
 		position: relative;
 		display: block;
 	
+	}
+	.main__des-mobile{
+		display: none;
 	}
 	.main_des__img_left{
 		position: absolute;
@@ -341,7 +351,7 @@ body {
     width: 15%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 	.downtitle {
 		margin-top: 700px;
 		text-align: center;
@@ -391,11 +401,14 @@ body {
 	padding: 1.5em;
 
 }
+.movie__content:hover{
+	text-decoration: none;
+}
 .movie__des {
 	font-size: 0.8em;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 	.movie__mobile{
 		display: none;
 	}
@@ -492,14 +505,17 @@ body {
 .footer__logo-box{
 	width: 30%;
 	margin-top: 5px;
+	background: black;
+
 }
 .footer__logo{
-	width: 20%;
+	width: 40%;
 	margin-left: 1em;
 
 }
 .footer__other {
 	position: relative;
+	background: black;
 }
 .footer__item {
 	padding-top: 0%;
@@ -507,24 +523,29 @@ body {
 }
 .footer__download {
 	margin-top: 1em;
+	background: black;
 }
 
 .footer__item-item {
 	color: white;
 	width: 5em;
+
 }
 .footer__box{
 	position: absolute;
 	margin-left: 1em;
-	margin-top: 1em;
+	padding-top: 1em;
+	background: black;
+	width: 100%;
 }
 .footer__copyright {
 	position: absolute;
 	margin-top: 3em;
 	margin-left: 1em;
 	color: white;
+
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 	.footer {
 		display: flex;
 		height: 45px;

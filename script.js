@@ -31,19 +31,12 @@ $('.button__watch').click(function(){
 });
 
 //slider
-// $('.center').slick({
-//     centerMode: true,
-//     infinite: true,
-//     centerPadding: '60px',
-//     slidesToShow: 3,
-//     speed: 500,
-// });
 $('.center').slick({
     centerMode: true,
     infinite: true,
     responsive: [
       {
-        breakpoint: 900,
+        breakpoint: 1024,
         settings: {
           arrows: false,
           centerMode: true,
