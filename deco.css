@@ -25,6 +25,10 @@ body {
 .download, .notice{
 	color: white;
 }
+.download:hover, .notice:hover, .footer__item:hover, .footer__item-item:hover {
+	color: #ccc;
+	text-decoration: none;
+}
 #sidemenu{
 	width: 2.3em;
 }
@@ -557,7 +561,7 @@ body {
 
 /*footer*/
 .footer {
-	height: 45px;
+	height: 100px;
 	width: 100%;
 	font-size: .75em;
 	background: black;
@@ -598,8 +602,9 @@ body {
 }
 .footer__box{
 	position: absolute;
-	margin-left: 2em;
+	padding-left: 1em;
 	background: black;
+	margin-top: 1em;
 	width: 100%;
 }
 .footer__copyright {
@@ -612,10 +617,11 @@ body {
 @media screen and (max-width:1024px) and (min-width: 770px){
 	.footer__box{
 		position: absolute;
-		margin-left: 1em;
-		padding-top: 1em;
 		background: black;
 		width: 100%;
+	}
+	.footer{
+		height: 150px;
 	}
 }
 
@@ -624,7 +630,7 @@ body {
 		display: flex;
 		height: 45px;
 		width: 100%;
-		margin-top: 1100px;
+		margin-top: 1150px;
 		font-size: .75em;
 		background: black;
 	}
@@ -648,7 +654,6 @@ body {
 	.footer__item {
 		padding-top: 0%;
 		display: flex;
-		margin-left: -1em;
 	}
 	.footer__download {
 		margin-top: 0;
@@ -663,7 +668,6 @@ body {
 		margin-top: 0;
 	}
 	.footer__copyright {
-		text-align: right;
 		position: absolute;
 		margin-top: 1.5em;
 
