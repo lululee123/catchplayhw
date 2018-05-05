@@ -9,7 +9,6 @@ btn.onclick = function() {
 span.onclick = function() {
     modal.style.display = "none";
 }
-
 sidebtn.onclick = function() {
     modal.style.display = "block";
 }
@@ -36,7 +35,7 @@ $('.center').slick({
     infinite: true,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1025,
         settings: {
           arrows: false,
           centerMode: true,
@@ -45,7 +44,7 @@ $('.center').slick({
         }
       }, 
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           arrows: false,
           centerMode: true,
