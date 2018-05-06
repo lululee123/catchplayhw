@@ -24,11 +24,38 @@ sidemenu__span.onclick = function() {
     sidemenu__modal.style.display = "none";
 }
 
+$('.modal-content').css('overflow-y', 'scroll');  
+
 //btn
 $('.button__watch').click(function(){
   $('html,body').animate({scrollTop:$('.downtitle').offset().top},800);
 });
 
+//mobile movie card
+$(".movie__card__1").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});
+$(".movie__card__2").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});
+$(".movie__card__3").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});
+$(".movie__card__4").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});
+$(".movie__card__5").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});
+$(".movie__card__6").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});
 //slider
 $('.center').slick({
     centerMode: true,
@@ -53,5 +80,4 @@ $('.center').slick({
         }
       }
     ]
-  });
- 
+});

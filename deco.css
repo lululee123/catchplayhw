@@ -314,7 +314,7 @@ body {
 }
 @media screen and (max-width:1230px) and (min-width: 970px) {
 	.button__watch, .button__join{
-		left: 30%;
+		left: 31%;
 	}
 }
 
@@ -450,7 +450,7 @@ body {
 
 .movie__mobile {
   position: relative;
-  margin-top: 3em;
+  margin-top: 2em;
   width: 100%;
 }
 .movie__card {
